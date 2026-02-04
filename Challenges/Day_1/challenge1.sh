@@ -21,19 +21,19 @@ num2=28
 
 # Print a message
 echo "Hello World! Your name is $name and you are $age years old"
-echo
-# This adds two numbers togethe
+
+# This adds two numbers together
 answer=$((num1 + num2))
 echo "The answer to your sum is $answer"
-echo
-# This showes the name of a user
+
+# This shows the name of a user
 echo "Your name is $USER"
-echo
-# Showes the present working dircetory
+
+# shows the present working directory
 echo "Your prensent working directory is $PWD"
-echo
-# Showes editor uesd
+
+# Shows editor used
 echo "Your editor is $EDITOR"
 echo
-# prints all the pdfs in a dircetory
-find "$HOME/Documents/All_Pdf_files/Access" -type f -name "*.pdf"
+# prints all the PDFs in a directory
+ls "$HOME"/Documents/All_Pdf_files/Access/*.pdf
