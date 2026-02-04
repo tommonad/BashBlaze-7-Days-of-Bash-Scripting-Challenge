@@ -30,10 +30,10 @@ echo "The answer to your sum is $answer"
 echo "Your name is $USER"
 
 # shows the present working directory
-echo "Your prensent working directory is $PWD"
+echo "Your present working directory is $PWD"
 
 # Shows editor used
 echo "Your editor is $EDITOR"
 echo
 # prints all the PDFs in a directory
-ls "$HOME"/Documents/All_Pdf_files/Access/*.pdf
+ls ~/Documents/All_Pdf_files/Access/*.pdf
